@@ -1,0 +1,32 @@
+{
+  "name": "scriptload",
+  "version": "0.1.0",
+  "description": "Asynchronously load one or more scripts while executing them in order.",
+  "scripts": {
+    "test": "jshint index.js test/index.js && jscs index.js test/index.js && testem ci",
+    "watch": "testem -g"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RealGeeks/scriptload.git"
+  },
+  "author": "Sorin Iclanzan <sorin@iclanzan.com> (http://iclanzan.com/)",
+  "bugs": {
+    "url": "https://github.com/RealGeeks/scriptload/issues"
+  },
+  "homepage": "https://github.com/RealGeeks/scriptload",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^8.1.1",
+    "jscs": "^1.10.0",
+    "jshint": "^2.6.0",
+    "tape": "^3.4.0",
+    "testem": "^0.6.33"
+  },
+  "dependencies": {
+    "lodash": "^2.4.1"
+  }
+}
