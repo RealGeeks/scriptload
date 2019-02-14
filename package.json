@@ -1,6 +1,6 @@
 {
   "name": "scriptload",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Asynchronously load one or more scripts while executing them in order.",
   "scripts": {
     "test": "jshint index.js test/index.js && jscs index.js test/index.js && testem ci",
@@ -27,6 +27,6 @@
     "testem": "^0.6.33"
   },
   "dependencies": {
-    "lodash": "^2.4.1"
+    "lodash": "^4.17.11"
   }
 }
