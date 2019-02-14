@@ -1,5 +1,5 @@
 {
-  "name": "scriptload",
+  "name": "@realgeeks/scriptload",
   "version": "0.1.1",
   "description": "Asynchronously load one or more scripts while executing them in order.",
   "scripts": {
